@@ -2,13 +2,15 @@
   "name": "nulledwalker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "./test.ts",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^14.14.31",
+    "lua-types": "^2.8.0",
     "typescript-to-lua": "^0.38.1"
   },
   "scripts": {
-    "build": "tstl",
+    "build": "tstl .",
     "dev": "tstl --watch"
   },
   "author": "",
